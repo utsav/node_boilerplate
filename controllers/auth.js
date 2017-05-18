@@ -3,7 +3,6 @@ var jwt = require('jsonwebtoken');
 var config = require('./../config/config');
 var bcrypt = require('bcryptjs');
 
-
 exports.adminLogin = function (req, res) {
 
     if(!req.body.email || !req.body.password)

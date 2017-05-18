@@ -1,4 +1,4 @@
-var Role = require('./../models/role.js');
+var Role = require('./../models/roles');
 
 exports.creteRole = function (req, res) {
 	Role.count({name: req.body.name}).exec(function(err, roleCount) {

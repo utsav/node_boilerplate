@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var config = require('./../config/config');
 var authCtrl = require('./../controllers/auth');
-var checkToken = require('./../middlewares/checkToken');
-var fileUpload = require('./../middlewares/fileUpload');
+var checkToken = require('./../services/checkToken');
+var fileUpload = require('./../services/fileUpload');
 var userCtrl = require('./../controllers/user');
-var adminCtrl = require('./../controllers/admin.js');
+var adminCtrl = require('./../controllers/admin');
 var socialCtrl = require('./../controllers/social');
 var roleCtrl = require('./../controllers/role');
 
