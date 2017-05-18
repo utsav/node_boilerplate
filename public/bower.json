@@ -1,0 +1,15 @@
+{
+  "name": "trivago",
+  "description": "trivago",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "ngstorage": "^0.3.11",
+    "angular-bootstrap": "^2.1.2",
+    "angular-file-upload": "^2.5.0",
+    "ng-file-upload-shim": "^12.2.13"
+  }
+}
